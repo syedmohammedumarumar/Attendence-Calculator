@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Attendance Calculator</h1>
+        <label for="numSubjects">Enter the number of subjects: </label>
+        <input type="number" id="numSubjects" min="1" class="subsize">
+        <button onclick="generateInputFields()">Submit</button>
+        <div id="subjectInputs"></div>
+        <button id="calculateBtn" onclick="calculateAverageAttendance()" style="display:none;">Calculate</button>
+        <h2 id="result"></h2>
+        <a href="http://www.mitsims.in/#" target="_blank">Mits Gems</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
